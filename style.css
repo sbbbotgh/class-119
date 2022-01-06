@@ -1,0 +1,37 @@
+body{
+    background-color: #333;
+}
+
+h1{
+    color: #333;
+    background-color: whitesmoke;
+}
+
+#show_sketch{
+    float: right;
+    margin: 2.5px;
+}
+
+p{
+    color: whitesmoke;
+    padding-top: 10px;
+    font-size: 25px;
+}
+
+canvas{
+    margin-top: 100px;
+    border: 5px solid royalblue;
+    border-radius: 20px;
+    animation: fames 4s infinite;
+    visibility: visible !important;
+}
+
+@keyframes fames{
+    from{
+        box-shadow: 1px 1px 38px blue;
+    }
+    to{
+        box-shadow: 1px 1px 38px blueviolet;
+    }
+}
+
